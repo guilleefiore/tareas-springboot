@@ -23,8 +23,8 @@ Incluye perfiles de ejecución para **desarrollo (dev)** y **producción (prod)*
 
 ## ▶️ Ejecución del proyecto
 Desde la carpeta raíz del proyecto:
-bash
-./gradlew bootRun
+`bash
+./gradlew bootRun`
 
 ---
 
@@ -32,12 +32,12 @@ bash
 
 En el archivo `src/main/resources/application.properties`, modificá la línea:
 
-properties
-spring.profiles.active=dev
+`properties
+spring.profiles.active=dev`
 
 Por:
 
-spring.profiles.active=prod
+`spring.profiles.active=prod`
 
 Luego volvés a ejecutar el proyecto para ver el cambio de comportamiento.
 
@@ -45,7 +45,7 @@ Luego volvés a ejecutar el proyecto para ver el cambio de comportamiento.
 
 # 📸 Capturas de consola
 
-##🧩 Modo Desarrollo (dev)
+## 🧩 Modo Desarrollo (dev)
 
 <img width="1440" height="900" alt="captura-dev" src="https://github.com/user-attachments/assets/98ce39fb-f9cd-4d54-b46b-0c0966e35e99" />
 
