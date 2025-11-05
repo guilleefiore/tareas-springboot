@@ -23,30 +23,34 @@ Incluye perfiles de ejecución para **desarrollo (dev)** y **producción (prod)*
 
 ## ▶️ Ejecución del proyecto
 Desde la carpeta raíz del proyecto:
-
-```bash
+bash
 ./gradlew bootRun
+
+---
 
 ## 🔧 Cambiar entre perfiles
 
 En el archivo `src/main/resources/application.properties`, modificá la línea:
 
-```properties
+properties
 spring.profiles.active=dev
 
 Por:
-```spring.profiles.active=prod
+
+spring.profiles.active=prod
 
 Luego volvés a ejecutar el proyecto para ver el cambio de comportamiento.
+
+---
 
 📸 Capturas de consola
 🧩 Modo Desarrollo (dev)
 
-<img width="1440" height="900" alt="captura-dev" src="https://github.com/user-attachments/assets/6d9aeea0-dd82-4b8b-918d-4b1d10821cc7" />
+<img width="1440" height="900" alt="captura-dev" src="https://github.com/user-attachments/assets/98ce39fb-f9cd-4d54-b46b-0c0966e35e99" />
 
 🏭 Modo Producción (prod)
 
-<img width="1440" height="900" alt="captura-prod" src="https://github.com/user-attachments/assets/e02e4e0e-ddbc-458a-a92b-521baa838f79" />
+<img width="1440" height="900" alt="captura-prod" src="https://github.com/user-attachments/assets/cde65362-e439-4291-ab78-0aa6a2233778" />
 
 💭 Conclusiones personales
 
@@ -65,9 +69,10 @@ Implementación de CommandLineRunner para ejecutar lógica inicial
 Este ejercicio permitió comprender cómo estructurar un proyecto profesional en Spring Boot
 y cómo aprovechar la automatización de configuración que ofrece el framework.
 
+---
+
 👤 Autora
 
 Guillermina Fiore – Legajo 50024
 Universidad Tecnológica Nacional – Facultad Regional Mendoza
-Tecnicatura Universitaria en Programación
-
+Ingeniería en Sistemas de Información
