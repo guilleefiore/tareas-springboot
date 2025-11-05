@@ -43,16 +43,17 @@ Luego volvés a ejecutar el proyecto para ver el cambio de comportamiento.
 
 ---
 
-📸 Capturas de consola
-🧩 Modo Desarrollo (dev)
+# 📸 Capturas de consola
+
+##🧩 Modo Desarrollo (dev)
 
 <img width="1440" height="900" alt="captura-dev" src="https://github.com/user-attachments/assets/98ce39fb-f9cd-4d54-b46b-0c0966e35e99" />
 
-🏭 Modo Producción (prod)
+# 🏭 Modo Producción (prod)
 
 <img width="1440" height="900" alt="captura-prod" src="https://github.com/user-attachments/assets/cde65362-e439-4291-ab78-0aa6a2233778" />
 
-💭 Conclusiones personales
+# 💭 Conclusiones personales
 
 Durante el desarrollo de este trabajo práctico se aplicaron los principales conceptos de Spring Boot, incluyendo:
 
@@ -71,7 +72,7 @@ y cómo aprovechar la automatización de configuración que ofrece el framework.
 
 ---
 
-👤 Autora
+# 👤 Autora
 
 Guillermina Fiore – Legajo 50024
 Universidad Tecnológica Nacional – Facultad Regional Mendoza
