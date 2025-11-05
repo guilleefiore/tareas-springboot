@@ -1,6 +1,6 @@
 # 📝 Sistema de Gestión de Tareas – Spring Boot
 
-Proyecto realizado para **Programación III – UTN FRM**, aplicando los fundamentos de **Spring Boot**:  
+Proyecto realizado para **Ingeniería en Sistemas de Información – UTN FRM**, aplicando los fundamentos de **Spring Boot**:  
 inyección de dependencias, estereotipos, configuración con `application.properties` y gestión de entornos con *profiles*.
 
 ---
@@ -23,8 +23,8 @@ Incluye perfiles de ejecución para **desarrollo (dev)** y **producción (prod)*
 
 ## ▶️ Ejecución del proyecto
 Desde la carpeta raíz del proyecto:
-`bash
-./gradlew bootRun`
+`bash`
+`./gradlew bootRun`
 
 ---
 
@@ -32,8 +32,8 @@ Desde la carpeta raíz del proyecto:
 
 En el archivo `src/main/resources/application.properties`, modificá la línea:
 
-`properties
-spring.profiles.active=dev`
+`properties`
+`spring.profiles.active=dev`
 
 Por:
 
@@ -59,13 +59,13 @@ Durante el desarrollo de este trabajo práctico se aplicaron los principales con
 
 Inyección de dependencias por constructor
 
-Uso de estereotipos @Service y @Repository
+Uso de estereotipos `@Service` y `@Repository`
 
-Configuración mediante application.properties
+Configuración mediante `application.properties`
 
-Gestión de diferentes entornos con @Profile
+Gestión de diferentes entornos con `@Profile`
 
-Implementación de CommandLineRunner para ejecutar lógica inicial
+Implementación de `CommandLineRunner` para ejecutar lógica inicial
 
 Este ejercicio permitió comprender cómo estructurar un proyecto profesional en Spring Boot
 y cómo aprovechar la automatización de configuración que ofrece el framework.
